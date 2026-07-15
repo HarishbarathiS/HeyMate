@@ -45,24 +45,16 @@ You need [Android Studio](https://developer.android.com/studio) and an Android
 device (API 26+).
 
 1. Clone the repo.
-2. **Add the vendor BLE SDK.** This app talks to the glasses through the
-   manufacturer's proprietary Bluetooth SDK, which is **not included** in this
-   repository (it isn't ours to redistribute). Place the SDK file here:
-
-   ```
-   glasses-capture/libs/glasses_sdk_20250723_v01.aar
-   ```
-
-   The filename must match the one referenced in `glasses-capture/build.gradle`.
-   If your SDK file has a different name, either rename it to the above or update
-   that line in the build script.
-
-   Without it, the project will not build. See `docs/PROTOCOL.md` for how the SDK
-   is used.
-3. Open the project in Android Studio and let Gradle sync.
-4. Build and run on your device.
-5. In the app's **Settings**, add your Gemini API key (or your own AI server
+2. Open the project in Android Studio and let Gradle sync.
+3. Build and run on your device.
+4. In the app's **Settings**, add your Gemini API key (or your own AI server
    endpoint).
+
+> The glasses are driven by the manufacturer's Bluetooth SDK
+> (`glasses-capture/libs/glasses_sdk_20250723_v01.aar`). It is bundled here for
+> convenience so the project builds out of the box. The SDK is proprietary to the
+> glasses manufacturer — HeyMate is not affiliated with them. See `docs/PROTOCOL.md`
+> for how it's used.
 
 ## How it works
 

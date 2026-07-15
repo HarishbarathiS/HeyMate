@@ -15,22 +15,12 @@ The interesting engineering is in `docs/`:
 - `docs/PROTOCOL.md` — reverse-engineered BLE + Wi-Fi Direct transfer protocol.
 - `docs/BLOG.md` — the story of how it was reverse-engineered.
 
-## The one thing that will block your build
+## The vendor BLE SDK
 
 The glasses are driven by the **manufacturer's proprietary BLE SDK** (an `.aar`),
-which is **not in this repo** — it isn't ours to redistribute. Without it, the
-project does not compile.
-
-Place the vendor SDK here:
-
-```
-glasses-capture/libs/glasses_sdk_20250723_v01.aar
-```
-
-⚠️ The filename is currently hardcoded in `glasses-capture/build.gradle`
-(`api files('libs/glasses_sdk_20250723_v01.aar')`). If your SDK file has a
-different name, either rename the file to match, or update that line in the
-build script.
+bundled at `glasses-capture/libs/glasses_sdk_20250723_v01.aar`. It's committed to
+the repo so the project builds out of the box. The filename is referenced in
+`glasses-capture/build.gradle` (`api files('libs/glasses_sdk_20250723_v01.aar')`).
 
 The SDK's Java package is `com.oudmon.*`. Those import statements appear throughout
 `app/.../ble/` and `glasses-capture/` — **they cannot be renamed**; the code

@@ -14,5 +14,6 @@ This project builds on prior open-source work:
   Referenced during development.
 
 The vendor Bluetooth SDK (`glasses_sdk_*.aar`) is proprietary to the glasses
-manufacturer and is NOT included in this repository. Users must supply their own
-copy. See README.md.
+manufacturer. It is bundled here for convenience so the project builds out of the
+box. HeyMate is not affiliated with the manufacturer, and no ownership of the SDK
+is claimed. See README.md.

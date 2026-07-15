@@ -12,9 +12,6 @@ captures/
 .externalNativeBuild/
 .cxx/
 
-# Vendor SDK — proprietary, not redistributable. Users must supply their own.
-glasses-capture/libs/*.aar
-
 # Keystores / signing
 *.jks
 *.keystore
