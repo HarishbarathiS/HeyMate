@@ -1,4 +1,8 @@
-# HeyMate
+<p align="center">
+  <img src="docs/icon.png" alt="HeyMate icon" width="120" />
+</p>
+
+<h1 align="center">HeyMate</h1>
 
 An Android app for AI camera glasses. Instead of using the glasses' own app, it
 connects to the glasses directly, downloads your full-size photos and audio, and
