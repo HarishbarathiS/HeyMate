@@ -1,0 +1,29 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace 'com.fersaiyan.glassescapture'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 26
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    // Vendor BLE SDK (oudmon) — provides LargeDataHandler / GlassesDeviceNotifyListener /
+    // BleOperateManager. `api` so the app can drive connection (scan/connect) directly.
+    api files('libs/glasses_sdk_20250723_v01.aar')
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.androidx.core.ktx
+}

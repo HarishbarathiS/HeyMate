@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- The app's external-files DCIM dir, where imported photos/videos are kept. -->
+    <external-files-path name="dcim" path="DCIM/" />
+    <cache-path name="cache" path="." />
+</paths>

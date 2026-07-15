@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The glasses' Wi-Fi media server speaks plain HTTP on their Wi-Fi Direct subnet (192.168.49.x),
+  whose exact address varies with the group-owner role, so a fixed-domain rule isn't enough. Permit
+  cleartext broadly: the app's only HTTP target is the glasses — the Gemini agent and every cloud
+  call use HTTPS regardless of this setting.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

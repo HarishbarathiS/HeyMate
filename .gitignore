@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android / IDE
+.idea/
+*.iml
+local.properties
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Vendor SDK — proprietary, not redistributable. Users must supply their own.
+glasses-capture/libs/*.aar
+
+# Keystores / signing
+*.jks
+*.keystore
+
+# Logs
+*.log
