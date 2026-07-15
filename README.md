@@ -6,12 +6,12 @@
 
 <p align="center"><b>A more capable, open alternative to the HeyCyan app for AI camera glasses.</b></p>
 
-HeyMate does everything the stock HeyCyan app does — and more. Instead of routing
+HeyMate does everything the HeyCyan app does — and more. Instead of routing
 through the vendor's closed app, it connects to the glasses directly, downloads
 your full-size photos and audio, and sends them to an AI you pick. Point the
 glasses at something, capture it, and ask a question — you choose which AI answers.
 
-**What HeyMate adds over the stock app:**
+**What HeyMate adds over the HeyCyan app:**
 - **Your own AI model** — plug in Gemini (or your own AI server) instead of the frozen built-in one
 - **Full-resolution import** — pull the real photos and videos off the glasses, not the tiny low-res versions
 - **Live transcription + text-to-speech** — ask out loud, hear the answer back through the glasses
