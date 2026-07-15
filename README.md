@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/icon.png" alt="HeyMate icon" width="240" />
+  <img src="docs/icon.png" alt="HeyMate icon" width="480" />
 </p>
 
 <h1 align="center">HeyMate</h1>
