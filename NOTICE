@@ -1,0 +1,18 @@
+HeyMate
+Copyright (c) 2026 Harish
+
+This project builds on prior open-source work:
+
+- FerSaiyan — Alternative HeyCyan App and SDK
+  https://github.com/FerSaiyan/Alternative-HeyCyan-App-and-SDK
+  The `glasses-capture` module (BLE photo / voice / TTS) is derived from this
+  project, and the glasses Wi-Fi transfer approach started from it. Grateful
+  thanks to the author.
+
+- ebowwa — HeyCyan Smart Glasses SDK
+  https://github.com/ebowwa/HeyCyanSmartGlassesSDK
+  Referenced during development.
+
+The vendor Bluetooth SDK (`glasses_sdk_*.aar`) is proprietary to the glasses
+manufacturer and is NOT included in this repository. Users must supply their own
+copy. See README.md.

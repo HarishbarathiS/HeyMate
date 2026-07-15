@@ -1,6 +1,9 @@
 # Glasses — Protocol Reference
 
-Reverse-engineered reference for a pair of BLE + Wi-Fi camera glasses.
+Reference for a pair of BLE + Wi-Fi camera glasses. Builds on prior open-source
+work by [FerSaiyan](https://github.com/FerSaiyan/Alternative-HeyCyan-App-and-SDK),
+with the transfer protocol confirmed against real hardware here.
+
 Everything here was recovered from three sources, marked inline:
 
 - **[SDK]** — in the bundled vendor AAR, confirmed via `javap`/`dexdump`.

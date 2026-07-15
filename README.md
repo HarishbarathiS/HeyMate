@@ -79,11 +79,19 @@ reverse-engineered — is written up in:
 | `app` | The main Android app (UI, gallery, AI pipeline, Wi-Fi transfer) |
 | `glasses-capture` | Standalone module: BLE button → photo / live transcription / TTS |
 
+## Credits
+
+Thanks to **[FerSaiyan](https://github.com/FerSaiyan/Alternative-HeyCyan-App-and-SDK)**,
+whose open-source HeyCyan app and SDK work HeyMate builds on — the `glasses-capture`
+module and the glasses transfer approach started from that project.
+
+See [`NOTICE`](NOTICE) for details.
+
 ## Note
 
-This is a personal project built by reverse-engineering a consumer device. It's
-shared for learning and tinkering. It is not affiliated with or endorsed by any
-glasses manufacturer. Use it with your own hardware and at your own risk.
+This is a personal project built on top of an open-source SDK. It's shared for
+learning and tinkering. It is not affiliated with or endorsed by any glasses
+manufacturer. Use it with your own hardware and at your own risk.
 
 ## License
 
