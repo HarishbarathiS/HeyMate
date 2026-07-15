@@ -34,8 +34,12 @@ device (API 26+).
    repository (it isn't ours to redistribute). Place the SDK file here:
 
    ```
-   glasses-capture/libs/glasses_sdk.aar
+   glasses-capture/libs/glasses_sdk_20250723_v01.aar
    ```
+
+   The filename must match the one referenced in `glasses-capture/build.gradle`.
+   If your SDK file has a different name, either rename it to the above or update
+   that line in the build script.
 
    Without it, the project will not build. See `docs/PROTOCOL.md` for how the SDK
    is used.
